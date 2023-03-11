@@ -8,7 +8,7 @@ public class Main {
         int contribution = 15000;
         int amountOfSavings = 0;
         int i = 0;
-        while (amountOfSavings < 1_000_000) {
+        while (amountOfSavings < 2_459_000) {
             i = i + 1;
             amountOfSavings = amountOfSavings + contribution;
             System.out.println("Месяц " + i + " сумма накоплений равна " + amountOfSavings + " месяц");
@@ -21,12 +21,14 @@ public class Main {
         }
         System.out.println();
 
-        int y = 10;
+
+        int y = 11;
         while (y > 0) {
             y = y - 1;
             System.out.print(y + " ");
-            System.out.println();
         }
+            System.out.println();
+
 
 
         //  Task 3
@@ -36,7 +38,7 @@ public class Main {
         int year = 0;
         while (year < 10) {
             year++;
-            populationChange = populationChange + fertility - estimate;
+            populationChange = populationChange + populationChange/1000 * fertility - populationChange/1000 *estimate;
             System.out.println("Год " + year + " численность населения составляет " + populationChange);
         }
 
