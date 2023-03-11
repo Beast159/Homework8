@@ -40,7 +40,6 @@ public class Main {
             System.out.println("Год " + year + " численность населения составляет " + populationChange);
         }
 
-
         //  Task 4 & 5
         int deposit = 15000;
         int totals = 0;
@@ -76,17 +75,17 @@ public class Main {
             System.out.println("сейчас пятница, " + day + " число, сдай отчет");
         }
 
+
+
         //  Task 8
         int yearComet = 0;
-        int cometArrived;
-        int cometWillArrive;
+
         for (; yearComet < 2123; yearComet = yearComet + 79) {
             if (1823 < yearComet && yearComet < 2023) {
                 System.out.println("Комета прилетала в " + yearComet);
             }
             else if (2023 < yearComet && yearComet < 2123) {
                 System.out.println("Комета прилетит еще  в " + yearComet);
-
 
             }
         }
