@@ -16,18 +16,18 @@ public class Main {
 
         //  Task 2
 
-        for (int x = 1; x <= 10; x++) {
+        int y = 0;
+        while (y < 10) {
+            y = y + 1;
+            System.out.print(y + " ");
+        }
+
+            System.out.println();
+        for (int x = 10; x > 0; x--) {
             System.out.print(x + " ");
         }
         System.out.println();
 
-
-        int y = 11;
-        while (y > 0) {
-            y = y - 1;
-            System.out.print(y + " ");
-        }
-            System.out.println();
 
 
 
@@ -86,8 +86,8 @@ public class Main {
             if (1823 < yearComet && yearComet < 2023) {
                 System.out.println("Комета прилетала в " + yearComet);
             }
-            else if (2023 < yearComet && yearComet < 2123) {
-                System.out.println("Комета прилетит еще  в " + yearComet);
+            else if (2023 <= yearComet) {
+                System.out.println("Комета прилетит еще в " + yearComet);
 
             }
         }
